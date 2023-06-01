@@ -13,6 +13,17 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+.container {
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    background: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
 .box {
     position: relative;
     width: 200px;
@@ -26,6 +37,8 @@ body {
     letter-spacing: 0.1em;
     cursor: pointer;
     transition: 0.1s;
-
+    box-shadow: 0 0 50px 40px rgba(255, 98, 0, 0.7);
+    border-radius: 5px;
+    
 }
 
